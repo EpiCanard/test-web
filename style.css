@@ -1,0 +1,16 @@
+html, body {
+    height: 100vh;
+}
+
+header {
+    height: 5em;
+    background-color: blueviolet;
+}
+
+main {
+    background-color: chocolate;
+}
+
+footer {
+    background-color: darkcyan;
+}
