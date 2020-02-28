@@ -1,9 +1,13 @@
+:root {
+    --main-fg-color: #8f5e69;
+    --main-bg-color: #fbd2a4;
+}
+
 html, body {
     height: 100vh;
 }
-
+/*
 header {
-    height: 5em;
     background-color: blueviolet;
 }
 
@@ -13,4 +17,12 @@ main {
 
 footer {
     background-color: darkcyan;
+}
+*/
+header .navbar {
+    background-image: linear-gradient(to right, var(--main-bg-color), #fdf7e9);
+}
+
+header .navbar .navbar-brand {
+    color: var(--main-fg-color);
 }
