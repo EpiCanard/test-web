@@ -1,5 +1,6 @@
 :root {
     --main-fg-color: #8f5e69;
+    --main-fg-alpha-color: #8f5e6999;
     --main-bg-color: #fbd2a4;
 }
 
@@ -25,4 +26,8 @@ header .navbar {
 
 header .navbar .navbar-brand {
     color: var(--main-fg-color);
+}
+
+.nav-pills .nav-link.active {
+    background-color: var(--main-fg-alpha-color);
 }
