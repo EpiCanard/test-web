@@ -1,5 +1,5 @@
 theme: jekyll-theme-slate
-baseurl: ""
+baseurl: "test-web"
 defaults:
   - 
     scope:
