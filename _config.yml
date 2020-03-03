@@ -1,4 +1,4 @@
 theme: jekyll-theme-slate
 baseurl: ""
-include:
-  - README.md
+readme_index:
+  enabled: true
