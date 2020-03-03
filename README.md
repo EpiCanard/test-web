@@ -1,4 +1,5 @@
 ---
+layout: default
 ---
 ![banner](https://user-images.githubusercontent.com/29657498/52167675-07369d80-271f-11e9-86ff-362db527f854.png)
 
