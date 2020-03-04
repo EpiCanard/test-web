@@ -3,9 +3,9 @@ layout: default
 ---
 plop
 <a href="{{ site.github.wiki_url }}" target="_blank">Wiki</a>
-{% for release in site.github.releases %}
 <ul>
+    {% for release in site.github.releases %}
     <li>[{{ release.tag_name }}] {{ release.name }} - {{ release.published_at }}</li>
+    {% endfor %}
 </ul>
-{% endfor %}
 <p>Downloads</p>
