@@ -5,7 +5,7 @@ layout: default
 <ul>
     {% for release in site.github.releases %}
     <li>[{{ release.tag_name }}] {{ release.name }} - {{ release.published_at }}</li>
-    <p>{{ release.body  | replace '`' 'plop' | markdownify }}</p>
+    <p>{{ release.body  | replace "`" 'plop' | markdownify }}</p>
     {% endfor %}
 </ul>
 <p>Downloads</p>
