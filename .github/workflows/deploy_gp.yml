@@ -13,4 +13,4 @@ jobs:
     - name: curl
       uses: wei/curl@v1
       with:
-        args: "-H \"Authorization: token c40c95815f3b44ced36c1e122c73e8e6f87ec4b2\" -X POST https://api.github.com/repos/EpiCanard/test-web/pages/builds"
+        args: "-H 'Authorization: token ${{ secrets.GPAGES_TOKEN }}' -X POST https://api.github.com/repos/EpiCanard/test-web/pages/builds"
