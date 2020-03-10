@@ -13,4 +13,4 @@ jobs:
     - name: curl
       uses: wei/curl@v1
       with:
-        args: -u EpiCanard:293248b65cc62a87f8776ce4d867af9a6dd50d87 -X POST https://api.github.com/repos/EpiCanard/test-web/pages/builds
+        args: -u EpiCanard:cf658f4acce9a4c16db575b4c5c32203bdb385fa -X POST https://api.github.com/repos/EpiCanard/test-web/pages/builds
