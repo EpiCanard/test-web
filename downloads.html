@@ -6,7 +6,7 @@ plop
 <ul>
     {% for release in site.github.releases %}
     <li>[{{ release.tag_name }}] {{ release.name }} - {{ release.published_at }}</li>
-    <p>{{ release.body  | replace "```" "{% endhighlight %}" }}</p>
+    <p>{{ release.body  | replace "```" "plop" }}</p>
     {% endfor %}
 </ul>
 <p>Downloads</p>
