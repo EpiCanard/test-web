@@ -1,0 +1,16 @@
+name: Deploy GP
+
+on:
+  watch:
+    types:
+    - started
+
+jobs:
+  curl:
+    runs-on: ubuntu-latest
+    if: github.actor == github.event.repository.owner.login
+    steps:
+    - name: curl
+      uses: wei/curl@v1
+      with:
+        args: -u ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }} -X POST https://api.github.com/repos/EpiCanard/test-web/pages/builds
