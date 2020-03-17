@@ -4,8 +4,7 @@ layout: default
 <a href="{{ site.github.wiki_url }}" target="_blank">Wiki</a>
 <ul>
     {% for release in site.github.releases %}
-    <li>[{{ release.tag_name }}] {{ release.name }} - {{ release.published_at }}</li>
-    <p>{{ release.body  | markdownify }}</p>
+    {% include release.html release=release %}
     {% endfor %}
 </ul>
 <p>Downloads</p>
