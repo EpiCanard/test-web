@@ -3,10 +3,13 @@
 
 body {
   background-color: #fff;
-  padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
+}
+
+main {
+  padding:50px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -106,6 +109,7 @@ img {
 
 header {
   position:fixed;
+  width: 100%;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -207,12 +211,6 @@ hr {
   header a small {
     display:inline;
   }
-
-  header ul {
-    position:absolute;
-    right:50px;
-    top:52px;
-  }
 }
 
 @media print, screen and (max-width: 720px) {
@@ -222,10 +220,6 @@ hr {
 
   header {
     padding:0;
-  }
-
-  header ul, header p.view {
-    position:static;
   }
 
   pre, code {
@@ -249,7 +243,6 @@ hr {
 
 @media print {
   body {
-    padding:0.4in;
     font-size:12pt;
     color:#444;
   }
